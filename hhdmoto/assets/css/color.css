@@ -1,0 +1,17 @@
+:root {
+    --main-font: 'Roboto', sans-serif;
+    --headding-font-2: 'Nunito', sans-serif;
+    --theme-base: #005780;
+    --theme-base2: #5B618A;
+    --theme-base-rgb: 247, 79, 34;
+    --theme-black: #232323;
+    --theme-black-rgb: 35, 35, 35;
+    --theme-gray: #777777;
+    --theme-gray-rgb: 119, 119, 119;
+    --theme-color1: #feac02;
+    --theme-color1-rgb: 254, 172, 2;
+    --theme-color2: #5fbcaf;
+    --theme-color2-rgb: 95, 188, 175;
+    --theme-color3: #0090ff;
+    --theme-color3-rgb: 0, 144, 255;
+}
