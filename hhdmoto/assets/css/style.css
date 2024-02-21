@@ -663,6 +663,8 @@ img {
     transform: translateY(0%);
 }
 
+
+
 .mobile-menu .close-btn {
     position: absolute;
     top: 10px;
@@ -4840,10 +4842,11 @@ section.photo-gallery .filters {
     position: relative;
     overflow: hidden;
     flex: 0 0 25%;
-    max-width: 25%;
+    max-width: 16%;
     width: 100%;
     margin-bottom: 65px;
 }
+
 
 .brand-section-one-inner .bottom-box {
     position: relative;
@@ -4863,6 +4866,8 @@ section.photo-gallery .filters {
 
 .brand-addon-one a img {
     transition: all 0.2s ease-in-out 0.1s;
+    max-width: 130px;
+    max-height: 130px;
 }
 
 .brand-addon-one:hover a img {
@@ -4876,7 +4881,7 @@ section.photo-gallery .filters {
     left: 0;
     bottom: 0;
     right: 0;
-    transform: translateY(80px);
+    transform: translateY(150px);
     transition: all 0.4s ease-in-out 0.1s;
 }
 
@@ -4891,6 +4896,8 @@ section.photo-gallery .filters {
 
 .brand-addon-one .overlay-box a img {
     opacity: 1;
+    max-width: 130px;
+    max-height: 130px;
 }
 
 
@@ -5565,6 +5572,7 @@ section.photo-gallery .filters {
     position: relative;
     display: block;
     overflow: hidden;
+    /* padding-left: 30px; */
 }
 
 .footer-widget-item .title {
@@ -8876,7 +8884,7 @@ section.faq-section {
     line-height: 75px;
 }
 
-.accordion-box .block .acc-btn.active {background:#006899;border-bottom-left-radius: 0;border-bottom-right-radius: 0;color: #fff;}
+.accordion-box .block .acc-btn.active {background:#0C1968;border-bottom-left-radius: 0;border-bottom-right-radius: 0;color: #fff;}
 
 .accordion-box .block.active-block {
     border-color: #d3d3d3;
@@ -8911,7 +8919,7 @@ section.faq-section {
     display: block;
     max-width: 400px;
     width: 100%;
-    padding-left: 30px;
+    
     /* padding-top: 10px; */
 }
 
@@ -9024,7 +9032,7 @@ section.faq-section {
 }
 
 .main-footer-three .footer-widget-page-link-list li a:hover {
-    color: var(--theme-color1);
+    color: #53b9eb;
     opacity: 1;
 }
 
@@ -9058,8 +9066,13 @@ section.faq-section {
     transition: all 500ms ease;
 }
 
+.main-footer-three .footer-widget-caterories-list li a i{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
 .main-footer-three .footer-widget-caterories-list li a:hover {
-    color: var(--theme-color1);
+    color: #53b9eb;
     opacity: 1;
 }
 
@@ -9095,7 +9108,7 @@ section.faq-section {
     position: absolute;
     top: 5px;
     left: 0;
-    color: var(--theme-base);
+    color: #fff;
     font-size: 20px;
 }
 
@@ -9134,7 +9147,8 @@ section.faq-section {
 }
 
 .footer-widget-question ul li h6 a:hover {
-    color: var(--theme-base);
+    /* color: var(--theme-base); */
+    text-decoration: underline !important;
 }
 
 
@@ -9153,7 +9167,7 @@ section.faq-section {
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     padding: 10px 0px 10px;
 }
 
@@ -13900,7 +13914,7 @@ section.causes-section {
 }
 
 nav.top-bar-wrap {
-    background: #002333;
+    background: #081045;
     max-height: 60px;
 }
 
@@ -13926,7 +13940,7 @@ a.nav-link {
 
 .featured-services {
     overflow: hidden;
-    background: #006899;
+    background: #1226a0;
 }
 .thm-container {
     max-width: 1170px;
