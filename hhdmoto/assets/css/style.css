@@ -1148,6 +1148,18 @@ img {
     padding-left: 320px;
 }
 
+.header-one__inner .logo-one::before{
+    content: '';
+    background: #F0683E;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 5000px;
+    height: 110%;
+    transform: skewX(-38deg);
+
+}
+
 .logo-one {
     position: absolute;
     top: 0;
@@ -1159,6 +1171,7 @@ img {
     justify-content: center;
     background: var(--theme-base);
 }
+
 
 .header-one-content {
     position: relative;
