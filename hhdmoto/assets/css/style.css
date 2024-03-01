@@ -3437,11 +3437,13 @@ overflow-y: auto;}
 
 /* Breadcrumb Section One */
 .breadcrumb-section-one {
-    position: relative;
+    position: absolute;
     display: block;
     overflow: hidden;
-    z-index: 10;
+    z-index: -1;
+    width: 100%;
 }
+
 
 .breadcrumb-section-one-bg {
     position: absolute;
@@ -8667,7 +8669,7 @@ section.company-two {
 /* photo gallery section */
 
 section.photo-gallery {
-    padding-top: 120px;
+    padding-top:500px;
     padding-bottom: 110px;
     position: relative;
 }
@@ -13073,7 +13075,7 @@ padding-top: 16px;padding-bottom: 14px;}
     position: relative;
     display: block;
     border: none;
-    height: 800px;
+    height: 500px;
     width: 100%;
 }
 
@@ -13085,7 +13087,7 @@ padding-top: 16px;padding-bottom: 14px;}
     display: block;
     background: transparent;
     padding: 0px 0px 90px;
-    margin-top: -220px;
+    margin-top: 500px;
     z-index: 1;
 }
 
@@ -13101,9 +13103,10 @@ padding-top: 16px;padding-bottom: 14px;}
     display: block;
     background: #ffffff;
     box-shadow: 0px 16px 32px 0px rgb(0, 0, 0, 0.04);
-    padding: 60px 30px 87px;
+    padding: 20px 30px 30px;
     border-radius: 10px;
     overflow: hidden;
+    border-bottom: 1px solid #0C1968;
 }
 
 .contact-addon-one .inner .icon {
