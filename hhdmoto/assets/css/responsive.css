@@ -1585,6 +1585,15 @@
 		margin-left: 0px;
 	}
 
+	.logo-one a img{
+		position: absolute;
+    top: 12px;
+    left: 50px;
+	}
+	.breadcrumb-section-one .inner-content {
+		padding: 120px 0 80px;
+	}
+
 	/**Banner Section Two**/
 	.banner-section-two-carousel .owl-nav {
 		display: none;
@@ -2432,8 +2441,12 @@
 	}
 
 	.breadcrumb-section-one .inner-content .title-box .sec-title .title {
-		font-size: 50px;
+		font-size: 40px;
 		margin-bottom: 20px;
+	}
+
+	section.photo-gallery {
+		padding-top: 400px;
 	}
 
 	/**About Section Three**/
@@ -2954,13 +2967,22 @@
 	}
 
 
+	.featured-services .left-full-img img {
+		max-width: 100%;
+	}
 
+	.featured-services ul {
+		padding-right: 30px;
+	}
 
+	.featured-services .text-box {
+		padding-right: 20px;
+		padding: 0 20px;
+	}
 
-
-
-
-
+	.footer-widget-item .hhd-logo{
+		padding-left: 0px;
+	}
 
 
 
